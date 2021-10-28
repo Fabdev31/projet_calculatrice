@@ -1,0 +1,19 @@
+{
+  "name": "travail_perso",
+  "version": "1.0.0",
+  "description": "utiliser la programmation javascript pour creer une calculatrice",
+  "main": "calculatrice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabdev31/projet_calculatrice.git"
+  },
+  "author": "LeFab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabdev31/projet_calculatrice/issues"
+  },
+  "homepage": "https://github.com/Fabdev31/projet_calculatrice#readme"
+}
