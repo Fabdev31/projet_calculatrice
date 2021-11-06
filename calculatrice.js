@@ -1,5 +1,5 @@
 var chaineOperation = new String();
-
+var resultat = new String();
 function concatenerOperation(touche) {
     chaineOperation = chaineOperation.concat(touche);
     updateAffichage();
@@ -7,7 +7,7 @@ function concatenerOperation(touche) {
 }
 
 function calculResultat() {
-    chaineOperation = eval(chaineOperation);
+    chaineOperation = eval(chaineOperation).toString();
     updateAffichage();
     console.log("calculResultat -> chaineOperation: " + chaineOperation);
 }
