@@ -19,5 +19,5 @@ function effacerResultat() {
 }
 
 function updateAffichage() {
-    //document.getElementById("mytext").value = "My value";
+    document.getElementById("ecran-affichage").value = chaineOperation;
 }
