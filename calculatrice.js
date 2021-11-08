@@ -13,7 +13,7 @@ function calculResultat() {
 }
 
 function effacerResultat() {
-    chaineOperation = "";
+    chaineOperation = chaineOperation.slice(0, -1);
     updateAffichage();
     console.log("effacerResultat -> chaineOperation: " + chaineOperation);
 }
