@@ -13,9 +13,13 @@ function calculResultat() {
 }
 
 function effacerResultat() {
-    chaineOperation = chaineOperation.slice(0, -1);
+    chaineOperation = "";
     updateAffichage();
     console.log("effacerResultat -> chaineOperation: " + chaineOperation);
+}
+function supprimerDernierCaractere() {
+    chaineOperation = chaineOperation.slice(0, -1);
+    updateAffichage();
 }
 
 function updateAffichage() {
