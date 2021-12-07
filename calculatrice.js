@@ -1,5 +1,7 @@
+'use strict'
 var chaineOperation = new String();
 function concatenerOperation(touche) {
+    getAffichage();
     chaineOperation = chaineOperation.concat(touche);
     updateAffichage();
     console.log("concatenerOperations -> chaineOperation: " + chaineOperation);
@@ -23,4 +25,14 @@ function supprimerDernierCaractere() {
 
 function updateAffichage() {
     document.getElementById("ecran-affichage").value = chaineOperation;
+}
+
+function getAffichage() {
+    chaineOperation = document.getElementById("ecran-affichage").value;
+}
+
+function taperEntree(e) {
+    if ( e.keyCode == 13 ) {
+        calculResultat();
+    }
 }
