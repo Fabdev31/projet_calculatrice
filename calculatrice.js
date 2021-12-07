@@ -8,7 +8,8 @@ function concatenerOperation(touche) {
 }
 
 function calculResultat() {
-    chaineOperation = eval(chaineOperation).toFixed(2).toString();
+    getAffichage();
+    chaineOperation = Number(eval(chaineOperation)).toFixed(2).toString();
     updateAffichage();
     console.log("calculResultat -> chaineOperation: " + chaineOperation);
 }
@@ -19,6 +20,7 @@ function effacerResultat() {
     console.log("effacerResultat -> chaineOperation: " + chaineOperation);
 }
 function supprimerDernierCaractere() {
+    getAffichage();
     chaineOperation = chaineOperation.slice(0, -1);
     updateAffichage();
 }
