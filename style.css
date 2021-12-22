@@ -1,0 +1,11 @@
+button {
+    border:none;
+    color: white;
+    background-color: white;
+    border-radius: 25%;
+}
+
+.touche-a-creer {
+    background-color: rgb(74, 144, 226);
+    border-radius: 50%;
+}

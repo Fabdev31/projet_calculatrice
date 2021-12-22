@@ -35,6 +35,12 @@ function getAffichage() {
 
 function taperEntree(e) {
     if ( e.keyCode == 13 ) {
+        //correspond à taper sur la touche entrée//
         calculResultat();
     }
 }
+// regex pour transformer un nombre en décimale//
+function turnIntoDecimal() {
+    if  (true)
+    {}
+} 
