@@ -1,11 +1,99 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 button {
     border:none;
     color: white;
     background-color: white;
     border-radius: 25%;
+    font-size: 100%;
+    font-weight: 900;
 }
 
 .touche-a-creer {
     background-color: rgb(74, 144, 226);
     border-radius: 50%;
+}
+
+#bouton-plus {
+    padding-top: 0.55rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+#bouton-moins {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+    margin-bottom: 0.3rem;
+}
+
+#bouton-multiplier {
+    padding-top: 0.6rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+#parenthese-gauche {
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+#parenthese-droite {
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+#bouton-diviser {
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+#bouton-correction {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.7rem;
+}
+
+#symbolegalite {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+#bouton-retour {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+#bouton-virgule {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+    margin-bottom: 0.3rem;
 }
