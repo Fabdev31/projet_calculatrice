@@ -3,10 +3,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+table {
+    background-color: white;
+    border-radius: 25px;
+    border: rgb(74, 144, 226) solid 4px;
+}
+
 button {
     border:none;
     color: white;
-    background-color: white;
+    background-color: white;    
     border-radius: 25%;
     font-size: 100%;
     font-weight: 900;
