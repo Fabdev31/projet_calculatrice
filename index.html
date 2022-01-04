@@ -6,40 +6,57 @@
     </head>
     <body>
         <script type="text/javascript" src="calculatrice.js"></script>
-        <input type="text" id="ecran-affichage" name="ecran-affichage" size="10" onkeyup="taperEntree(event)">
-        <table>
-            <tr>
-                <td><button onclick='concatenerOperation("1")'><img src="images/icons1.png" alt="icone-chiffre-1-cercle">
-                </button></td>
-                <td><button onclick='concatenerOperation("2")'><img src="images/icons2.png" alt="icone-chiffre-2-cercle"></button></td>
-                <td><button onclick='concatenerOperation("3")'><img src="images/icons3.png" alt="icone-chiffre-3-cercle"></button></td>
-                <td><button class="touche-a-creer" id="bouton-plus" onclick='concatenerOperation("+")'>+</button></td>
-            </tr>
-            <tr>
-                <td><button onclick='concatenerOperation("4")'><img src="images/icons4.png" alt="icone-chiffre-4-cercle"></button></td>
-                <td><button onclick='concatenerOperation("5")'><img src="images/icons5.png" alt="icone-chiffre-5-cercle"></button></td>
-                <td><button onclick='concatenerOperation("6")'><img src="images/icons6.png" alt="icone-chiffre-6-cercle"></button></td>
-                <td><button class="touche-a-creer" id="bouton-moins" onclick='concatenerOperation("-")'>-</button></td>
-            </tr>
-            <tr>
-                <td><button onclick='concatenerOperation("7")'><img src="images/icons7.png" alt="icone-chiffre-7-cercle"></button></td>
-                <td><button onclick='concatenerOperation("8")'><img src="images/icons8.png" alt="icone-chiffre-8-cercle"></button></td>
-                <td><button onclick='concatenerOperation("9")'><img src="images/icons9.png" alt="icone-chiffre-9-cercle"></button></td>
-                <td><button class="touche-a-creer" id="bouton-multiplier" onclick='concatenerOperation("*")'>*</button></td>
-            </tr>
-            <tr>
-                <td><button onclick='concatenerOperation("0")'><img src="images/icons0.png" alt="icone-chiffre-0-cercle"></button></td>
-                <td><button class="touche-a-creer" id="parenthese-gauche" onclick='concatenerOperation("(")'>(</button></td>
-                <td><button class="touche-a-creer" id="parenthese-droite" onclick='concatenerOperation(")")'>)</button></td>
-                <td><button class="touche-a-creer" id="bouton-diviser" onclick='concatenerOperation("/")'>/</button></td>
-            </tr>
-            <tr>
-                <td><button class="touche-a-creer" id="bouton-correction" onclick='effacerResultat()'>C</button></td>
-                <td><button class="touche-a-creer" id="symbolegalite" onclick='calculResultat()'>=</button></td>
-                <td><button class="touche-a-creer" id="bouton-retour" onclick='supprimerDernierCaractere()'><</button></td>
-                <td><button class="touche-a-creer" id="bouton-virgule" onclick='concatenerOperation(",")'>.</button></td>
-            </tr>
-        </table>
+        <div class="cadre-calculatrice">
+            <input type="text" id="ecran-affichage" name="ecran-affichage" size="10" onkeyup="taperEntree(event)">
+            <table>
+                <tr>
+                    <td><button onclick='concatenerOperation("1")'><img src="images/icons1.png"
+                                alt="icone-chiffre-1-cercle">
+                        </button></td>
+                    <td><button onclick='concatenerOperation("2")'><img src="images/icons2.png"
+                                alt="icone-chiffre-2-cercle"></button></td>
+                    <td><button onclick='concatenerOperation("3")'><img src="images/icons3.png"
+                                alt="icone-chiffre-3-cercle"></button></td>
+                    <td><button class="touche-a-creer" id="bouton-plus" onclick='concatenerOperation("+")'>+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick='concatenerOperation("4")'><img src="images/icons4.png"
+                                alt="icone-chiffre-4-cercle"></button></td>
+                    <td><button onclick='concatenerOperation("5")'><img src="images/icons5.png"
+                                alt="icone-chiffre-5-cercle"></button></td>
+                    <td><button onclick='concatenerOperation("6")'><img src="images/icons6.png"
+                                alt="icone-chiffre-6-cercle"></button></td>
+                    <td><button class="touche-a-creer" id="bouton-moins" onclick='concatenerOperation("-")'>-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick='concatenerOperation("7")'><img src="images/icons7.png"
+                                alt="icone-chiffre-7-cercle"></button></td>
+                    <td><button onclick='concatenerOperation("8")'><img src="images/icons8.png"
+                                alt="icone-chiffre-8-cercle"></button></td>
+                    <td><button onclick='concatenerOperation("9")'><img src="images/icons9.png"
+                                alt="icone-chiffre-9-cercle"></button></td>
+                    <td><button class="touche-a-creer" id="bouton-multiplier" onclick='concatenerOperation("*")'>*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button onclick='concatenerOperation("0")'><img src="images/icons0.png"
+                                alt="icone-chiffre-0-cercle"></button></td>
+                    <td><button class="touche-a-creer" id="parenthese-gauche" onclick='concatenerOperation("(")'>(</button>
+                    </td>
+                    <td><button class="touche-a-creer" id="parenthese-droite" onclick='concatenerOperation(")")'>)</button>
+                    </td>
+                    <td><button class="touche-a-creer" id="bouton-diviser" onclick='concatenerOperation("/")'>/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="touche-a-creer" id="bouton-correction" onclick='effacerResultat()'>C</button></td>
+                    <td><button class="touche-a-creer" id="symbolegalite" onclick='calculResultat()'>=</button></td>
+                    <td><button class="touche-a-creer" id="bouton-retour" onclick='supprimerDernierCaractere()'><</button></td>
+                    <td><button class="touche-a-creer" id="bouton-virgule" onclick='concatenerOperation(",")'>.</button></td>
+                </tr>
+            </table>
+        </div>
+        
     </body>
        <!-- Optional JavaScript -->
 
