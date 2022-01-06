@@ -4,6 +4,8 @@ body {
 }
 
 .cadre-calculatrice {
+    position: absolute;
+    right: 50%;
     border-radius: 10px;
     border: rgb(74, 144, 226) solid 4px;
     width: 25%;
