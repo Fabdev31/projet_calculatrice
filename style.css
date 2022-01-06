@@ -37,18 +37,15 @@ button {
     font-weight: 900;
 }
 
-button :hover{
-    background-color: navy;
+img {
+    max-width: 400%;
+    max-height: 400%;
 }
-
 .touche-a-creer {
     background-color: rgb(74, 144, 226);
     border-radius: 50%;
 }
 
-.touche-a-creer:hover{
-    background-color: navy;
-}
 
 #bouton-plus {
     padding-top: 0.55rem;
